@@ -21,6 +21,7 @@ import com.github.acnaweb.study_apir.service.PedidoService;
 @RequestMapping("/api/${api.version}/pedidos")
 public class ControllerPedido {
 
+//teste alteração
     @Autowired
     private PedidoService pedidoService;
 
