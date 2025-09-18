@@ -10,7 +10,8 @@ services:
     networks:
       - app-networks
   api:
-    build: .
+    #build: .
+    image: ogustavoress/study-apir:0.0.3
     depends_on:
       - db
     ports:
@@ -24,5 +25,6 @@ services:
     networks:
       - app-networks
 networks:
-  app-networks
+  app-networks:
+    driver: bridge
   
