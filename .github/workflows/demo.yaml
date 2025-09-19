@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: step1
         run: echo "Olá, mundo!"
+      - name: step2
+        run: echo "Mensagem 2"
+      - name: step3
+        run: echo "Mensagem 3"
