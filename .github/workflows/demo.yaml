@@ -1,3 +1,4 @@
+name: Demo do WorkFlow
 on:
   push:
 
@@ -11,3 +12,10 @@ jobs:
         run: echo "Mensagem 2"
       - name: step3
         run: echo "Mensagem 3"
+  demo2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Etapa 1
+        run: echo "Estou na etapa 1"
+      - name: Etapa 2
+        run: echo "Estou na etapa 2"
